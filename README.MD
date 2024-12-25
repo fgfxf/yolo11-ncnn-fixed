@@ -38,7 +38,7 @@ In addition, Tencent officials also suggest not using onnx conversion, but using
 
 执行完命令后，你就在yolo11n_ncnn_model文件夹下拿到了model.ncnn.bin和model.ncnn.param文件了
 
-![image-20241225120120407](.\pic\image-20241225120120407.png)
+![image-20241225120120407](https://github.com/fgfxf/yolo11-ncnn-fixed/blob/0cfe6dc7274667f7e57a97d137d186ce88a670d5/image-20241225120120407.png)
 
 # 0x01:  Picture resize
 
@@ -176,4 +176,9 @@ in_pad.substract_mean_normalize(0, norm_vals);
 
 现在，它应该工作正常了。
 
-![20241225121335](.\pic\20241225121335.jpg)
+![20241225121335](https://github.com/fgfxf/yolo11-ncnn-fixed/blob/0cfe6dc7274667f7e57a97d137d186ce88a670d5/20241225121335.jpg)
+
+fgfxf  于 河南科技大学
+fgfxf, Henan University of Science and Technology
+2024.12.25
+
