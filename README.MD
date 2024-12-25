@@ -10,7 +10,7 @@ Solution: ncnn yolov11 has random boxes, incorrect output dimensions, and no box
 
 最开始，我是用python的ultralytics导出为onnx格式文件(.onnx)，这个文件在python的pytorch和C++的onnxruntime库中推理良好，于是我就直接onnx转为ncnn格式(.bin和.param)
 
-这会导致ncnn的输出维度出错。![20241225120514](.\pic\20241225120514.jpg)
+这会导致ncnn的输出维度出错。![20241225120514](.\20241225120514.jpg)
 
 Firstly, there is the issue of model transformation
 
